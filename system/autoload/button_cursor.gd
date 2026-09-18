@@ -1,8 +1,8 @@
 extends Node
 
 ## Makes every Button show the OS's pointing-hand cursor on hover,
-## using a recursive walk of the scene tree in addition to checking for 
-## future nodes being added
+## using a recursive walk of the scene tree in addition to checking for
+## future nodes being added.
 
 
 func _ready() -> void:

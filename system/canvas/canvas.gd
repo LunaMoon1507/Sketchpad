@@ -119,8 +119,8 @@ func _on_gui_input(event: InputEvent) -> void:
 	canvas_input.emit(event)
 
 
-## Shows [param tool]'s cursor texture while hovering the canvas, or default arrow 
-
+## Shows [param tool]'s cursor texture while hovering the canvas, or the
+## default arrow if the tool has none.
 func set_tool_cursor(tool: Tool) -> void:
 	if tool and tool.cursor:
 		control_node.mouse_default_cursor_shape = Control.CURSOR_CROSS
